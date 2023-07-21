@@ -48,6 +48,7 @@ try {
 const getStories = () => {
   return {
     "./components/Task/Task.stories.jsx": require("../components/Task/Task.stories.jsx"),
+    "./components/TaskList/TaskList.stories.jsx": require("../components/TaskList/TaskList.stories.jsx"),
   };
 };
 
